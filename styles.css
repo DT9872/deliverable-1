@@ -1,0 +1,201 @@
+@media screen and (max-width: 767px) {
+body {
+    font-family: Roboto;
+    display: block !important;
+}
+header {
+    background-color: #F2F2F2;
+    color: black;
+    font-family: Roboto;
+    border: 1px solid #F2F2F2;
+    border-bottom: 10px solid #F2F2F2;
+    border-color: #F2F2F2;
+    padding-top: 0px;
+    padding-bottom: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-width: 10px;
+    position: relative;
+    display: inline-block;
+}
+button {
+    background-color: #20a8b4;
+    color: white;
+    text-align: left;
+    font-family: Roboto;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    box-shadow: 10px;
+    background: #20a8b4;
+    width: 100%;
+}    
+.nav-list button {
+    position: relative; left: 0px; top: 215px;
+}
+img {
+    display: none;
+}
+main {
+    font-family: Roboto;
+    display: block !important;
+    padding-top: 300px;
+    justify-content: center;
+    float: left;
+    padding-top: 150px;
+    position: relative; top: -100px;
+}
+a:link {
+    color: black;
+    background-color: #F2F2F2;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    background-color: #F2F2F2;
+    text-decoration: none;
+}
+a:hover {
+    color:#ff5c0f !important;
+    background-color: #F2F2F2;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: #F2F2F2;
+    text-decoration: none;
+}
+nav ul {
+    transform: rotate(180deg);
+}
+nav ul li {
+    display: block !important;
+    position: relative; left: 0px; top: -180px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #F2F2F2;
+    font-weight: bold;
+    transform: rotate(-180deg);
+}
+.nav-list button:hover {
+    background-color: #ff5c0f !important;
+    color: white;
+    text-decoration: none;
+}
+button:hover {
+    background-color: #ff5c0f !important;
+    color: white;
+    font-family: Roboto;
+}
+h1 {
+    position: relative; top: -20px;
+}
+}
+@media screen and (min-width: 768px) {
+    body {
+        font-family: Roboto;
+        display: block;
+    }
+    header {
+        background-color: #F2F2F2;
+        color: black;
+        font-family: Roboto;
+        border: 1px solid #F2F2F2;
+        border-bottom: 1px solid #F2F2F2;
+        border-color: #F2F2F2;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        border-width: 10px;
+        position: relative;
+        display: flex;
+    }
+    button {
+        background-color: #20a8b4;
+        color: white;
+        font-family: Roboto;
+        position: relative;
+        border-radius: 10px;
+        padding: 10px;
+        border-style: none;
+        box-shadow: 10px;
+        background: #20a8b4;
+        width: auto;
+    }    
+    .nav-list button {
+        position: relative; left: 730px; top: -5px;
+    }
+    img {
+        display: inline-block;
+        justify-content: right;
+        float: right;
+        padding-left: 550px;
+        position: relative; top: 75px;
+    }
+    main {
+        font-family: Roboto;
+        display: block;
+        padding-top: 300px;
+        justify-content: left;
+        float: left;
+        padding-right: 500px;
+        padding-top: 100px;
+        position: relative; top: -100px;
+    }
+    a:link {
+        color: black;
+        background-color: #F2F2F2;
+        text-decoration: none;
+    }
+    a:active {
+        color: black;
+        background-color: #F2F2F2;
+        text-decoration: none;
+    }
+    a:hover {
+        color:#ff5c0f !important;
+        background-color: #F2F2F2;
+        text-decoration: none;
+    }
+    a:visited {
+        color: black;
+        background-color: #F2F2F2;
+        text-decoration: none;
+    }
+    nav ul li {
+        display: inline-block;
+        justify-content: right;
+        float: right;
+        position: relative; 
+        padding: 30px;
+        padding-bottom: 30px;
+        background-color: #F2F2F2;
+        font-weight: bold;
+    }
+    ul {
+        flex: 0 0 auto;
+    }
+    .nav-list button:hover {
+        background-color: #ff5c0f !important;
+        color: white;
+        text-decoration: none;
+    }
+    button:hover {
+        background-color: #ff5c0f !important;
+        color: white;
+        font-family: Roboto;
+    }
+    ul.nav a:hover {
+        color: #ff5c0f !important;
+        background-color: #F2F2F2;
+        text-decoration: none;
+    }
+    #buttonClick:hover {
+        background-color: #ff5c0f !important;
+        color: white;
+        text-decoration: none;
+    }
+}
